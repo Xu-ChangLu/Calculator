@@ -1,0 +1,89 @@
+{
+	"easycom": {
+			"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+		},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "生活计算器"
+			}
+		}, {
+			"path": "pages/numberKey/index",
+			"style": {
+				"navigationBarTitleText": "计算器",
+				"enablePullDownRefresh": false
+			}
+
+		}
+        ,{
+            "path" : "pages/capital/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "大写金额",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/income/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/time/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "时间换算",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/house/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "房贷计算",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/house/result/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "计算结果",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/income/result/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "月薪清单",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/relative/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "三姑六婆",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}
